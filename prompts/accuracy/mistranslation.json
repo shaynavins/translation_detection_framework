@@ -1,0 +1,20 @@
+{
+  "error_type": "Mistranslation",
+  "definition": "Incorrect use in target content of a word, inconsistent match, and the incorrect segmentation.",
+  "examples": [
+    {
+      "source": "Photos tweeted by the department showed broken glass and paint splattered at a police building.",
+      "translation": "Bilder, die von der Polizei getwittert wurden, zeigten Glasscherben und Farbspuren an einem Polizeigebäude.",
+      "error_exists": true,
+      "severity": "Minor",
+      "explanation": "'Farbspuren' (paint traces) is not an accurate translation of 'paint splattered' which implies active splattering."
+    },
+    {
+      "source": "Photos tweeted by the department showed broken glass and paint splattered at a police building.",
+      "translation": "Bilder, die von der Polizei getwittert wurden, zeigten Glasscherben und verspritzte Farbe an einem Polizeigebäude.",
+      "error_exists": false,
+      "severity": "Neutral",
+      "explanation": "'verspritzte Farbe' accurately translates 'paint splattered'."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "error_type": "Grammar",
+  "definition": "The translation contains grammatical errors such as incorrect verb conjugation, wrong tense, subject-verb disagreement, incorrect article usage, or wrong word order.",
+  "examples": [
+    {
+      "source": "The children are playing in the park.",
+      "translation": "Les enfants joue dans le parc.",
+      "error_exists": true,
+      "severity": "Major",
+      "explanation": "Verb 'joue' should be 'jouent' to agree with plural subject 'enfants'."
+    },
+    {
+      "source": "She walks to school every day.",
+      "translation": "Elle marche à l'école tous les jours.",
+      "error_exists": false,
+      "severity": "Neutral",
+      "explanation": "Grammar is correct with proper verb conjugation and agreement."
+    }
+  ]
+}

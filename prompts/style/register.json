@@ -1,0 +1,20 @@
+{
+  "error_type": "Register",
+  "definition": "The translation uses an inappropriate level of formality or informality for the context, resulting in a mismatch with the expected tone of the source text.",
+  "examples": [
+    {
+      "source": "Dear Sir or Madam, We are writing to inform you of the upcoming changes to our service agreement.",
+      "translation": "Hola, te escribimos para contarte sobre los cambios en nuestro acuerdo de servicio.",
+      "error_exists": true,
+      "severity": "Major",
+      "explanation": "The source uses formal register ('Dear Sir or Madam'), but the translation uses informal register ('Hola', 'te'), which is inappropriate for business correspondence."
+    },
+    {
+      "source": "Please submit your application by the deadline.",
+      "translation": "Por favor, presente su solicitud antes de la fecha límite.",
+      "error_exists": false,
+      "severity": "Neutral",
+      "explanation": "Both source and translation maintain appropriate formal register."
+    }
+  ]
+}

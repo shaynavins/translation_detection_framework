@@ -1,0 +1,20 @@
+{
+  "error_type": "Spelling",
+  "definition": "The translation contains spelling mistakes or typographical errors.",
+  "examples": [
+    {
+      "source": "The weather is beautiful today.",
+      "translation": "El clima es hermoso hoy.",
+      "error_exists": false,
+      "severity": "Neutral",
+      "explanation": "All words are spelled correctly."
+    },
+    {
+      "source": "Thank you for your help.",
+      "translation": "Gracias por tu ayuda.",
+      "error_exists": false,
+      "severity": "Neutral",
+      "explanation": "No spelling errors present."
+    }
+  ]
+}

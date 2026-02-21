@@ -1,0 +1,20 @@
+{
+  "error_type": "Untranslated Text",
+  "definition": "Words in the source text that are not translated into the target language, excluding proper nouns (e.g., names, brands) and placeholders (e.g., #GOODS_NAME#). Please compare word by word, as long as there are untranslated words, they belong to the error.",
+  "examples": [
+    {
+      "source": "Remote work is likely to become more common.",
+      "translation": "Remote-Arbeit wird wahrscheinlich häufiger werden.",
+      "error_exists": true,
+      "severity": "Minor",
+      "explanation": "'Remote' is left untranslated when it could be translated to 'Fernarbeit' or 'Homeoffice'."
+    },
+    {
+      "source": "Your order for #PRODUCT_NAME# has been shipped.",
+      "translation": "Ihre Bestellung für #PRODUCT_NAME# wurde versendet.",
+      "error_exists": false,
+      "severity": "Neutral",
+      "explanation": "The placeholder #PRODUCT_NAME# is correctly left untranslated as it's a system placeholder."
+    }
+  ]
+}

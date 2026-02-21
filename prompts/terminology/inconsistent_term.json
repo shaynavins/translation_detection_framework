@@ -1,0 +1,20 @@
+{
+  "error_type": "Inconsistent Term",
+  "definition": "The same source term is translated using multiple different terms in cases where consistency is required for clarity and professionalism.",
+  "examples": [
+    {
+      "source": "The application allows users to upload files. After uploading, the application processes the files automatically.",
+      "translation": "La aplicación permite a los usuarios cargar archivos. Después de subir, la aplicación procesa los archivos automáticamente.",
+      "error_exists": true,
+      "severity": "Minor",
+      "explanation": "The term 'upload' is translated inconsistently as 'cargar' and 'subir' within the same text."
+    },
+    {
+      "source": "The system administrator can configure the settings. The administrator has full access to all features.",
+      "translation": "El administrador del sistema puede configurar los ajustes. El administrador tiene acceso completo a todas las funciones.",
+      "error_exists": false,
+      "severity": "Neutral",
+      "explanation": "The term 'administrator' is consistently translated as 'administrador' throughout."
+    }
+  ]
+}

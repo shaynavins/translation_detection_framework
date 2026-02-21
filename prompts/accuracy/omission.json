@@ -1,0 +1,20 @@
+{
+  "error_type": "Omission",
+  "definition": "A paragraph present in the source (including the noun, verb, adverb, adverbial, punctuation and so on) is missing in the translation.",
+  "examples": [
+    {
+      "source": "Until now the government is refusing to release nearly 600 Taliban prisoners it calls high-profile criminals and has offered to free alternatives.",
+      "translation": "Bis jetzt weigert sich die Regierung, fast 600 Taliban-Gefangene freizulassen, die sie als hochkarätige Kriminelle bezeichnet und Alternativen angeboten hat.",
+      "error_exists": true,
+      "severity": "Major",
+      "explanation": "The phrase 'to free' is omitted, changing the meaning of what the government offered."
+    },
+    {
+      "source": "Until now the government is refusing to release nearly 600 Taliban prisoners it calls high-profile criminals and has offered to free alternatives.",
+      "translation": "Bis jetzt weigert sich die Regierung, fast 600 Taliban-Gefangene freizulassen, die sie als hochkarätige Kriminelle bezeichnet, und hat angeboten, Freilassungsalternativen zu prüfen.",
+      "error_exists": false,
+      "severity": "Neutral",
+      "explanation": "The translation preserves all key information from the source."
+    }
+  ]
+}

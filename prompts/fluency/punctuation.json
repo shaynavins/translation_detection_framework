@@ -1,0 +1,20 @@
+{
+  "error_type": "Punctuation",
+  "definition": "The translation has incorrect, missing, or excessive punctuation marks.",
+  "examples": [
+    {
+      "source": "Hello! How are you today?",
+      "translation": "Hola Como estas hoy",
+      "error_exists": true,
+      "severity": "Minor",
+      "explanation": "Missing punctuation marks (exclamation and question marks)."
+    },
+    {
+      "source": "It's a nice day.",
+      "translation": "Es un día bonito.",
+      "error_exists": false,
+      "severity": "Neutral",
+      "explanation": "Punctuation is correct and appropriate."
+    }
+  ]
+}

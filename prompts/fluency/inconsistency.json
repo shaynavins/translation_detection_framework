@@ -1,0 +1,20 @@
+{
+  "error_type": "Inconsistency",
+  "definition": "The translation uses inconsistent terminology, style, or formatting within the same text.",
+  "examples": [
+    {
+      "source": "The user can login to the system. After the user logs in, they can access their account.",
+      "translation": "El usuario puede iniciar sesión en el sistema. Después de que el usuario se conecte, puede acceder a su cuenta.",
+      "error_exists": true,
+      "severity": "Minor",
+      "explanation": "Inconsistent translation of 'login' - first as 'iniciar sesión', then as 'conectarse'."
+    },
+    {
+      "source": "The company provides support. The company also offers training.",
+      "translation": "La empresa proporciona soporte. La empresa también ofrece capacitación.",
+      "error_exists": false,
+      "severity": "Neutral",
+      "explanation": "Consistent terminology used throughout."
+    }
+  ]
+}

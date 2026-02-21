@@ -1,0 +1,20 @@
+{
+  "error_type": "Incorrect Term",
+  "definition": "The translation uses a term that is not the correct, normative equivalent of the corresponding term in the source text, or does not conform to domain-specific or organizational terminology standards.",
+  "examples": [
+    {
+      "source": "The patient was diagnosed with myocardial infarction.",
+      "translation": "El paciente fue diagnosticado con ataque al corazón.",
+      "error_exists": true,
+      "severity": "Major",
+      "explanation": "The medical term 'myocardial infarction' should be translated as 'infarto de miocardio', not the colloquial 'ataque al corazón'."
+    },
+    {
+      "source": "Please click the submit button to send your application.",
+      "translation": "Por favor, haga clic en el botón enviar para enviar su solicitud.",
+      "error_exists": false,
+      "severity": "Neutral",
+      "explanation": "The term 'submit button' is correctly translated as 'botón enviar'."
+    }
+  ]
+}

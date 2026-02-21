@@ -1,0 +1,20 @@
+{
+  "error_type": "Addition",
+  "definition": "<copy from HiMATE description_SE.json>",
+  "examples": [
+    {
+      "source": "<example source>",
+      "translation": "<example translation>",
+      "error_exists": true,
+      "severity": "Minor",
+      "explanation": "<why it's an error>"
+    },
+    {
+      "source": "<example source>",
+      "translation": "<example translation>",
+      "error_exists": false,
+      "severity": "Neutral",
+      "explanation": "<why it's NOT an error>"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "error_type": "Awkward",
+  "definition": "The translation is grammatically correct but uses unnatural phrasing, word choice, or sentence structure that a native speaker would not typically use.",
+  "examples": [
+    {
+      "source": "The company has experienced significant growth this year.",
+      "translation": "La empresa ha experimentado crecimiento significativo en este año.",
+      "error_exists": true,
+      "severity": "Minor",
+      "explanation": "While grammatically correct, 'en este año' sounds awkward. A native speaker would say 'este año' without 'en'."
+    },
+    {
+      "source": "We look forward to hearing from you.",
+      "translation": "Esperamos tener noticias suyas.",
+      "error_exists": false,
+      "severity": "Neutral",
+      "explanation": "The translation uses natural, idiomatic phrasing that a native speaker would use."
+    }
+  ]
+}
